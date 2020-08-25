@@ -7,7 +7,7 @@ app.get("/createToken/:payload", (req, res) => {
     expiresIn: "30s",
   });
   return res.send(`
-    Here is your JWT that expires in 30 seconds. <br/><br/> Go to <a href="https://jwt.io/#debugger-io?token=${token}">jwt.io</a> or <a href="/readToken/${token}">here</a> to view the contents you specified.
+    Here is your JWT that expires in 30 seconds. <br/><br/> Read and validate the token <a href="/readToken/${token}">here</a>. (Expires in 30 seconds)
     <br/><br/>
     ${token}
   `);
