@@ -9,7 +9,7 @@
 
 ### Endpoints
 - `GET /createToken/:payload` - generate a payload
-- `GET /readToken/:jwt` - read a generated payload and validate the signature
+- `GET /readToken/:jwt` - read a generated payload and validate the signature / expiration
 
 
 # Example running on heroku
