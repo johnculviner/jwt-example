@@ -1,7 +1,7 @@
 # jwt-example
 
 ### Just the code
-See index.js
+See `./index.js`
 
 ### Installing
 - Ensure node is installed https://nodejs.org/en/download/
