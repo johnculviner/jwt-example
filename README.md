@@ -1,5 +1,8 @@
 # jwt-example
 
+### Just the code
+See index.js
+
 ### Installing
 - Ensure node is installed https://nodejs.org/en/download/
 - `npm install`
